@@ -10,9 +10,8 @@ ul{
 .box{
     background-color: #ffff;
     border-radius: 20px;
-    width: 1440px;
-    padding: 25px 25px;
-    margin-left: 15px;
+    padding: 20px 20px;
+    margin: 10px 15px;
 }
 
 .menu li a {
@@ -21,7 +20,7 @@ ul{
     font-size: 17px;
     margin-right: 10px;
     padding: 10px;
-
+    
 }
 
 header{
@@ -29,6 +28,12 @@ header{
     justify-content: space-between;
 }
 
+.menu{
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    align-items: center;
+}
 
 .menu ul{
     display: flex;
@@ -48,7 +53,36 @@ header{
     cursor: pointer;
 }
 
-.menu{
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+.button-join{
+    text-transform: uppercase;
+    background-color: #ED6D2E;
+    color: #ffff;
+    width: 163px;
+    height: 51px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.title h1 {
+    font-size: 102px;
+    color: #C1D230;
+    padding-top: 5px;
+    margin: 0;
+}
+
+.title h2 {
+    color: #254CAC;
+    font-size: 40px;
+    margin: 0;
+}
+
+.description{
+    font-family: 'Secular One', sans-serif;
+    margin: 10px;
+    color: #254CAC;
+    font-weight: inherit;
+}
+
+.container{
+    display: flex;
 }
