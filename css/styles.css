@@ -23,16 +23,18 @@ ul{
     
 }
 
-header{
+nav{
+    align-self: start;
     display: flex;
     justify-content: space-between;
 }
 
 .menu{
     display: flex;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    align-self: start;
+    margin-bottom: 2rem; 
     align-items: center;
+ 
 }
 
 .menu ul{
@@ -61,6 +63,7 @@ header{
     height: 51px;
     border-radius: 30px;
     cursor: pointer;
+    border: 1px solid #ED6D2E;
 }
 
 .title h1 {
@@ -85,4 +88,33 @@ header{
 
 .container{
     display: flex;
+}
+
+.squad{ 
+    width: 80px;
+    height: 80px;
+    background-image: linear-gradient(to bottom, #ADDDF2, #CBEAF8, #E2F0F5, #F5F5F5) ;
+    border-radius: 20px;
+}
+
+
+.others-info{
+    display: flex;
+    margin-top: 100px;
+}
+
+.icon{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.squad{
+    margin-right: 50px;
+}
+
+.details-info{
+    display: block;
 }
